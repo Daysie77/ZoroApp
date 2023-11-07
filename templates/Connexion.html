@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='initialize.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylebase.css')}}">
+    <title>PAGE DE CONNEXION</title>
+</head>
+
+<body>
+    <section>
+        <div class="ZORO">
+            <a
+                href="#">ZORO</a>
+        </div>
+        <div class="section2">
+            <div class="connexion">
+                <p>Connectez-vous</p>
+                <form method="POST">
+                    <input type="text" name="Identifiant" placeholder="Identifiant"><br>
+                    <input type="text" name="Mot de passe" placeholder="Mot de passe"><br>
+                    <button type="submit" class="btncon">
+                        <a
+                            href="/accueil/">Connexion
+                        </a>
+                    </button>
+                    <div class="message">
+                        <a href="#">Si pas de compte inscrivez-vous ici</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

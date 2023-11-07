@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='initialize.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylebase.css')}}">
+    
+    <!-- {% block reload %}
+    {% endblock %} -->
+
+    <title>BIENVENU SUR ZORO</title>
+</head>
+
+<body>
+    <section class="main">
+        <!--header-->
+        {%include './partiel/navbar.html'%}
+       <div class="section1">
+           <!--menu-->
+           {%include './partiel/menu.html'%}
+        
+           {%block conteneur%}       
+            <!-- contenu de la page -->
+           {%endblock%}
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,577 @@
+/* la page de connexion */
+section {
+    width: 100%;
+    height: 600px;
+    /* background-color: #CFD952; */
+}
+
+.ZORO {
+    width: 100%;
+    height: 100px;
+    background-color: #20A1BE;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ZORO a {
+    text-decoration: none;
+    color: white;
+}
+
+.section2 {
+    width: 100%;
+    height: 500px;
+    /* background-color: #EFC2C2; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.connexion {
+    width: 50%;
+    height: 70%;
+    background-color: #20A1BE;
+    border-radius: 50px;
+}
+
+.connexion p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.connexion form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.connexion form input {
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    /* border-radius: px; */
+
+}
+
+
+form .btncon {
+    background-color: rgba(234, 111, 35, 0.473);
+    height: 40px;
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+form .btncon a {
+    text-decoration: none;
+    color: black;
+}
+
+
+form .message {
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+form .message a {
+    color: white;
+    margin-top: 20px;
+}
+
+form .btncon:hover {
+    background-color: rgb(153, 106, 30);
+}
+
+/* Page d'accueil*/
+.main {
+    width: 100%;
+    height: 600px;
+    background-color: #CFD952;
+}
+
+.ZORO1 {
+    width: 100%;
+    height: 60px;
+    background-color: #20A1BE;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.ZORO1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.section1 {
+    width: 100%;
+    height: 100%;
+    background-color: #EFC2C2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .menu {
+    width: 20%;
+    height: 100%;
+    background-color: #20A1BE;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.section1 .menu .sous_menu {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section1 .menu .sous_menu .case,
+.section1 .menu .sous_menu .case1,
+.section1 .menu .sous_menu .case2,
+.section1 .menu .sous_menu .case3,
+.section1 .menu .sous_menu .case4,
+.section1 .menu .sous_menu .case5 {
+    background-color: white;
+    width: 100%;
+    height: 14%;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.section1 .menu .sous_menu .case a,
+.section1 .menu .sous_menu .case1 a,
+.section1 .menu .sous_menu .case2 a,
+.section1 .menu .sous_menu .case3 a,
+.section1 .menu .sous_menu .case4 a,
+.section1 .menu .sous_menu .case5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.section1 .menu .sous_menu .case:hover,
+.section1 .menu .sous_menu .case1:hover,
+.section1 .menu .sous_menu .case2:hover,
+.section1 .menu .sous_menu .case3:hover,
+.section1 .menu .sous_menu .case4:hover,
+.section1 .menu .sous_menu .case5:hover {
+    background-color: rgb(172, 169, 169);
+}
+.section1 .tableau {
+    width: 90%;
+    height: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+/* Liste des magasins */
+.section1 .tableau .place_btn {
+    width: 15%;
+    height: 8%;
+    margin-left: 70%;
+    background-color: rgb(110, 171, 18);
+    border-radius: 5px;
+    border: 2px solid #20A1BE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .tableau .place_btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section1 .tableau .msg {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.section1 .tableau .msg p {
+    width: 60%;
+    height: 60%;
+    border: 2px solid#20A1BE;
+    border-radius: 5px;
+    background-color: #cdd194;
+    text-align: center;
+}
+
+.section1 .tableau p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tableau .tab,
+.tableau .tab1,
+.tableau .tab2,
+.tableau .tab3 {
+    width: 90%;
+    height: 50%;
+    /* border: 2px solid green; */
+    /* margin-bottom: 50px; */
+    border-collapse: collapse;
+}
+
+.tableau .tab table,
+.tableau .tab1 table,
+.tableau .tab2 table,
+.tableau .tab3 table {
+    width: 100%;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: 2px solid #20A1BE;
+    background-color: white;
+    text-align: center;
+}
+
+thead {
+    background-color: #20A1BE;
+    color: #fff;
+    text-align: center;
+}
+
+th,
+td {
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody tr :nth-child(6) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tableau .tab3 table tbody tr :nth-child(5) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table .modif {
+    width: 45%;
+    height: 30px;
+    background-color: rgb(242, 179, 63);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+table .modif a,
+table .suprim a {
+    text-decoration: none;
+    color: white;
+}
+
+table .suprim {
+    width: 45%;
+    height: 30px;
+    background-color: rgb(241, 42, 42);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+tbody> :nth-child(1),
+tbody> :nth-child(3),
+tbody> :nth-child(5),
+tbody> :nth-child(7) {
+    background-color: #c9e6ec;
+}
+
+tbody> :nth-child(2),
+tbody> :nth-child(4),
+tbody> :nth-child(6),
+tbody> :nth-child(8) {
+    background-color: #D9D9D9;
+}
+
+/* Ajout de magasin */
+
+
+.section1 .tableau h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tableau .formu {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+
+.tableau .formulaire {
+    width: 25%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tableau .formulaire label {
+    font-size: 20px;
+}
+
+.tableau .box {
+    width: 30%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+.tableau .box .input1,
+.tableau .box .input2,
+.tableau .box .input3,
+.tableau .box .input4,
+.tableau .box .input5 {
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+    border-color: #20A1BE;
+
+}
+
+.tableau .box .input1 input,
+.tableau .box .input2 input,
+.tableau .box .input3 input,
+.tableau .box .input4 input,
+.tableau .box .input5 input {
+    width: 98%;
+    height: 100%;
+    border-radius: 5px;
+    border-color: #20A1BE;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.tableau .boutton {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15%;
+}
+
+.tableau1 .boutton {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.tableau .boutton .btn1,
+.tableau1 .boutton .btn1 {
+    width: 20%;
+    height: 100%;
+    border: #20A1BE solid;
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableau .boutton .btn1:hover,
+.tableau1 .boutton .btn1:hover {
+    background-color: brown;
+}
+
+.tableau .boutton .btn1 a,
+.tableau1 .boutton .btn1 a {
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.tableau .boutton .btn2,
+.tableau1 .boutton .btn2 {
+    width: 20%;
+    height: 100%;
+    border: #20A1BE solid;
+    background-color: rgb(92, 210, 92);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.tableau .boutton .btn2:hover,
+.tableau1 .boutton .btn2:hover {
+    background-color: green;
+}
+
+.tableau .boutton .btn2 a,
+.tableau1 .boutton .btn2 a {
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+/*Enregistrement magasin et Modification enregistrée */
+.tableau .tab tbody> :nth-child(8)
+.tableau .tab1 table tbody> :nth-child(5),
+.tableau .tab2 table tbody> :nth-child(4) {
+    color: rgb(54, 179, 68);
+}
+
+
+/* suppression  de magasin*/
+.section1 .tableau1 {
+    width: 90%;
+    height: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section1 .tableau1> :nth-child(1) {
+    width: 100%;
+    height: 10%;
+}
+
+.section1 .tableau1 h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tableau1 .formu1 {
+    width: 70%;
+    height: 30%;
+    border-radius: 20px;
+    border: 2px solid #20A1BE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #edacac;
+}
+
+.tableau1 .formu1 p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* formulaire inscription */
+
+
+
+
+
+
+/* fieldset {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    border: none;
+    font-family: 'Calibri', sans-serif;
+    padding: 20px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    float: left;
+    clear: left;
+}
+
+input {
+    float: left;
+}
+
+input[type="email"] {
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #2E475D;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+} */
